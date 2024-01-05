@@ -16,7 +16,8 @@ export default class Game {
 
   insertPicture(element) {
     const picture = document.createElement("img");
-    picture.src = "../../img/goblin.png";
+    // picture.src = "../../img/goblin.png";
+    picture.src = "https://github.com/netology-code/ahj-homeworks/blob/video/dom/pic/goblin.png?raw=true";
     picture.className = "picture";
     element.appendChild(picture);
   }
