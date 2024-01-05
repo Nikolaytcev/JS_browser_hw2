@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+}
+
+.board {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 500px;
+    margin: auto;
+}
+
+.cell {
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: solid 2px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.goblin-deactivate {
+    display: none;
+}
+
+.goblin-activate {
+    display: block;
+}
